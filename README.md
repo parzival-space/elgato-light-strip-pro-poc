@@ -1,7 +1,7 @@
 # Elgato Light Strip Pro PoC
 This project is a proof of concept (PoC) for controlling the Elgato Light Strip Pro using its REST API.
 
-![Components](./.doc/images/components.jpg)
+![Components](./.doc/images/components.png)
 
 > [!IMPORTANT]  
 > This PoC is not finished yet. It is still in development.
