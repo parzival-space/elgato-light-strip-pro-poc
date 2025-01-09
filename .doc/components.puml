@@ -1,0 +1,12 @@
+@startuml
+person "\tUser /\nAPI-Consumer" as user
+
+interface "HTTP API /\n  Web UI" as pocHttp
+pocHttp - [PoC Applocation]
+
+interface "HTTP API" as lspHttp
+lspHttp - [Elgato Light Strip Pro]
+
+[PoC Applocation] ..> lspHttp : "Interacts using"
+user ..> pocHttp : "Interacts using"
+@enduml
