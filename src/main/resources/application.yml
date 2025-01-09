@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Light Strip Pro Animator
+server:
+  port: 6969
+logging:
+  level:
+    org.springframework.web.client:
+            RestClient: DEBUG
+            RestTemplate: DEBUG
+    org.apache.http: DEBUG
+    root: DEBUG
